@@ -125,23 +125,23 @@ li {
 .links:hover {
     text-decoration: underline;
 }
-.row {
+.txtbox {
     display: var(--layout);
     flex-direction: row;
     justify-content: space-evenly;
     flex-flow: wrap;
 }
-  .card {
+  .text-column {
     width: 45%;
     border: 1px solid rgb(241, 241, 241);
     margin-bottom: 50px;
 }
-  .card-body {
+  .text-card {
     padding: 30px 20px;
     text-align: left;
     font-size: 18px;
 }
-  .card-body .btn {
+  .text-card .btn {
     display: block;
     color: var(--background-color);
     text-align: center;
@@ -155,7 +155,7 @@ li {
 	.portfolio {
 		flex-wrap: wrap;
 	}
-    .card {
+    .text-column {
         width: 90%;
     }
 }
