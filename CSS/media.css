@@ -2,4 +2,7 @@
 	.flex {
 		flex-wrap: wrap;
 	}
+        .card {
+          width: 90%;
+        }
 }
