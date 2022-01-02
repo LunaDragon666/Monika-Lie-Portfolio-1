@@ -167,3 +167,12 @@ li {
     text-decoration: none;
     padding: 10px 5px;
   }
+
+  @media (max-width: 1024px) {
+	.flex {
+		flex-wrap: wrap;
+	}
+        .card {
+          width: 90%;
+        }
+}
