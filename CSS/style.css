@@ -1,0 +1,227 @@
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background: white;
+    color: #031238;
+    font-family: 'Heebo', sans-serif;
+    margin: 0;
+    overflow-x:hidden;
+}
+
+header {
+    background: #84b4b1;
+    color: white;
+    letter-spacing: 0.5em;
+    padding: 7.5em 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header.p {
+    font-size: 0.75em;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+.container {
+    padding: 1em 2.5em;
+}
+
+.container h2 {
+    font-size: 3em;
+    font-weight: bold; 
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.dot {
+    color: #007bff; 
+}
+
+i {
+    font-weight: bold;
+}
+ 
+ .flex .col img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+    width: 100%;
+	margin: auto;
+    gap: 2.5em;
+}
+
+.flex .col {
+    background: #fcfcfc;
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 300px;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    transition: all 0.5s;
+    text-align: center;
+}
+
+.flex .col:hover {
+    box-shadow: 6px 6px 12px 0px rgba(0, 0, 0, 0.3);
+    transform: translateY(-0.5em);
+}
+
+
+ .flex .col .btn {
+	align-self: flex-start;
+	background: #007bff;
+	color: white;
+	font-size: 1.4em;
+	margin-top: auto;
+	height: 10%;
+	width: 100%;
+	flex-grow: 1;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	margin: 0 auto;
+	padding: 0.6em 0;
+	text-align: center;
+	text-transform: uppercase;
+    transition: all 0.75s;
+}
+
+.flex .col .btn:hover {
+	background: #0033be;
+}
+
+.text h2 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.text {
+    letter-spacing: 0.05em;
+    margin: 2em 0 2em 0;
+    padding: 0 1em;
+}
+
+footer {
+    clear: both;
+    font-size: 0.85em;
+    letter-spacing: 0.05em;
+    margin-top: 3em;
+    text-align: center;
+}
+.back {
+    color: white;
+    background: #007bff;
+    padding: 1em 3em;
+    right: 0;
+}
+.link {
+    text-align: right;
+    margin: 0em -0.75em;
+}
+
+.fleximg {
+    width: 100%;
+}
+
+/* How To Use */
+  
+  .left-container {
+    float: left;
+    height: 21vw;
+    width: 25%;
+    position: sticky;
+    top: 0;
+    float: left;
+    /* overflow: hidden; */
+  }
+  
+  .right-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    height: 57.5vw;
+    background: #fff;
+    width: 70%;
+    float: left;
+    padding: 0 2em;
+  }
+  
+  .left-content {
+    width: 25%;
+    height: 21vw;
+    top: 0;
+    left: 0;
+    position: fixed;
+  }
+  
+  .right-content {
+    width: 100%;
+  }
+
+  /**
+ * Tabs
+ */
+.tabs {
+	display: flex;
+	flex-wrap: wrap; 
+}
+.tabs label {
+	order: 1; 
+	display: block;
+	padding: 1rem 2rem;
+	margin-right: 0.2rem;
+	cursor: pointer;
+  background: #007bff;
+  color: white;
+  font-weight: bold;
+  transition: background ease 0.2s;
+}
+.tabs .tab {
+  order: 99; 
+  flex-grow: 1;
+	width: 100%;
+	display: none;
+  padding: 2.3rem;
+  background: #fff;
+}
+.tabs input[type="radio"] {
+	display: none;
+}
+.tabs input[type="radio"]:checked + label {
+	background: #fff;
+	color: black;
+	text-decoration: underline;
+	text-decoration-color: #007bff;
+	text-decoration-thickness: 0.2em;
+	text-underline-offset: 0.3em;
+}
+.tabs input[type="radio"]:checked + label + .tab {
+	display: block;
+}
+
+.unactive {
+    text-decoration: line-through;
+}
+
+#link-button {
+    background: #007bff;
+    color: white;
+    padding: 1em 2em;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-top: 3.5em;
+}
